@@ -1,12 +1,12 @@
 .image{
-    padding: 22% 0 10% 22%;
+    padding: 15% 0 5% 15%;
 }
 
 .heading{
     font-family: 'Big Shoulders Display', cursive;   
     color: hsl(0, 0%, 95%);
     font-weight: 700;
-    padding-left: 22%;
+    padding-left: 15%;
 }
 
 .sedens{
@@ -24,14 +24,15 @@
 }
 
 .container{
-    width: 75%;
     margin-top: 10%;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 p{
     font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
-    padding: 10% 22% 20% 22%;
+    padding: 5% 15% 20% 15%;
     line-height: 2;
 }
 
@@ -53,7 +54,7 @@ p{
 }
 
 .butn {
-    margin: 0 0 22% 22%;
+    margin: 5% 0 15% 15%;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;
