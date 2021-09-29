@@ -1,0 +1,114 @@
+.image{
+    padding: 22% 0 10% 22%;
+}
+
+.heading{
+    font-family: 'Big Shoulders Display', cursive;   
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    padding-left: 22%;
+}
+
+.sedens{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%)
+}
+
+.luxary{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+.container{
+    width: 75%;
+    margin-top: 10%;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 10% 22% 20% 22%;
+    line-height: 2;
+}
+
+.attribution{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+
+.btn2{
+    color: hsl(184, 100%, 22%);
+}
+
+.btn3{
+    color: hsl(179, 100%, 13%);
+}
+
+.butn {
+    margin: 0 0 22% 22%;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    height: 50px;
+    line-height: 50px;
+    font-family: 'Lexend Deca', sans-serif;;
+    width: 145px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+.btn1:hover {
+    background:hsl(31, 77%, 52%);
+    border: solid #FFFFFF 1px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn2:hover {
+    background:hsl(184, 100%, 22%);
+    border: solid #FFFFFF 1px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn3:hover {
+    background:hsl(179, 100%, 13%);
+    border: solid #FFFFFF 1px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width: 1200px){
+    .sedens{
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .luxary{
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0 0 10px 10px;
+    }
+}
