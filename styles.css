@@ -54,6 +54,7 @@ p{
 }
 
 .butn {
+    border-width: 0;
     margin: 5% 0 15% 15%;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
@@ -80,6 +81,7 @@ p{
     border-radius: 100px;
     text-decoration: none;
     color: white;
+    transition: ease-in .3s;
 }
 
 .btn2:hover {
@@ -90,6 +92,7 @@ p{
     border-radius: 100px;
     text-decoration: none;
     color: white;
+    transition: ease-in .3s;
 }
 
 .btn3:hover {
@@ -100,6 +103,7 @@ p{
     border-radius: 100px;
     text-decoration: none;
     color: white;
+    transition: ease-in .3s;
 }
 
 @media(max-width: 1200px){
